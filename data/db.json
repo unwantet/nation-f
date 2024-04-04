@@ -1,0 +1,180 @@
+{
+    "retseptlar":[
+        {
+            "id":1,
+            "img":"https://zira.uz/wp-content/uploads/2018/10/kavardak1-2.jpg",
+            "name":"Qovurdoq",
+            "ingerediends":[
+                "mol go'shti",
+                "kartoshka",
+                "qizil sabzi",
+                "piyoz",
+                "pomidor",
+                " qizil bulg'or qalampiri",
+                " sarimsoqpiyoz tishchasi",
+                "o'simlik yog'i"
+            ],
+            "cookingTime": "35 minut",
+            "description":"Qovurdoq bu oddiy masalliqlardan tayyorlaniladigan juda mazali taom bo’lib, oson pishiriladi.Bu taom uchun kerakli masalliqlar bu go’sht, piyoz, sabzi, kartoshka va pomidor bo’lib, bulg’or qalampiri va sarimsoqpiyozni xohishga qarab solishingiz yoki solmasligingiz mumkin."
+        },{
+            "id":2,
+            "img":"https://zira.uz/wp-content/uploads/2018/03/kuk-samsa-1.jpg",
+            "name":"Kok somsa",
+            "ingerediends":[
+                "ismaloq",
+                "jag'-jag",
+                "yalpiz",
+                "mator ko'kati",
+                "piyoz",
+                "o'simlik yog'i",
+                "dumba yog'i"
+            ],
+            "cookingTime": "30 minut",
+            "description":"Navroz bayramini ozimizning kok somsalarimiz tasavvur etib bolmaydi. Bugungi somsalarning xamirini tayyorlash esa kopchilik uchun yangilik bolsa ajab emas Somsalarni chiroyli chiqishi uchun chopchalarda terib chiqsak ham, alohida-alohida tugib chiqsak ham boladi."
+        },{
+            "id":3,
+            "img":"https://zira.uz/wp-content/uploads/2018/10/lagman-gotovoe-blyudo.jpg",
+            "name":"Cho’zma lag’mon",
+            "ingerediends":[
+                "mol go'shti",
+                "lagmon",
+                "piyoz",
+                "",
+                "soya qaylasi",
+                "bulg'or qalampirlari",
+                "Daykon turpi",
+                "o'simlik yog'i"
+            ],
+            "cookingTime": "1 soat",
+            "description":"Lag’min xamirini cho’zish ko’pchilik o’ylaganidek mushkul ish emas,Xamirni qorib olamiz va biroz muddatga ustini yopib, tindiramiz. So'ng xamirni taxta yoki stol ustiga qo'yib, biroz yoyamiz va uzun lentalarga kesib chiqamiz. Kattaroq lagan olib, yaxshilab yog' surtamiz, qo'llarimizni ham yog'lab olamiz."
+        },{
+            "id":1,
+            "img":"",
+            "name":"Choyxona palov",
+            "ingerediends":[
+                "qo'y go'shti",
+                "dumba yog'i",
+                "sabzi",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":"Choyxona palov eng mazali oshlardan biri bo’lib, aynan shu palobni ko’pchilik o’z uyida tayyorlaydi.Bunda faqat qo’y go’shti va yog’idan foydalanamiz"
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        },{
+            "id":1,
+            "img":"",
+            "name":"",
+            "ingerediends":[
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "cookingTime": "",
+            "description":""
+        }
+    ]
+}
