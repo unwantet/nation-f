@@ -29,7 +29,7 @@ export default function RetseptInfo() {
             <div className="w-[630px]">
                 <img src={retsept.img} 
                 alt={retsept.name}
-                className="w-[630px] h-[393px]  mb-10 rounded" />
+                className="  mb-10 rounded" />
                 <h1 className="text-5xl font-bold text-blue-400 mb-4">
                   {retsept.name} 
                   

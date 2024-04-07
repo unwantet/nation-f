@@ -1,10 +1,60 @@
+import React from "react";
 
-export default function Create() {
-    
-    return (
-        <div className="create max-w-screen-lg w-full mx-auto px-3">
-        <h1 className="text-secondary font-bold " >ADD NEW RETSEPT</h1>   <br />     
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur reiciendis cum laborum aperiam expedita? Voluptates nesciunt cum beatae amet cupiditate excepturi quia, ad nam doloribus fugiat cumque! Ipsam, ratione impedit!</p>
-        </div>
-    )
+function Create() {
+  return (
+    <div>
+      <h1 className="text-3xl text-center font-bold mb-10">
+        Create New Recipie
+      </h1>
+
+      <form className="flex items-center flex-col gap-5 ">
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Name of retsept</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Type here"
+            className="input input-bordered w-full max-w-xs"
+            required
+          />
+        </label>
+
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Cooking Time</span>
+          </div>
+          <input
+            type="number"
+            placeholder="Type here"
+            className="input input-bordered w-full max-w-xs"
+          />
+        </label>
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Image URL:</span>
+          </div>
+          <input
+            type="url"
+            placeholder="Type here"
+            className="input input-bordered w-full max-w-xs"
+          />
+        </label>
+        <label className="form-control w-full max-w-xs">
+          <div className="label">
+            <span className="label-text">Method</span>
+          </div>
+          <textarea
+            className="textarea textarea-bordered h-24"
+            placeholder="Bio"
+          ></textarea>
+        </label>
+
+        <button className="btn btn-secondary w-full max-w-xs">Submit</button>
+      </form>
+    </div>
+  );
 }
+
+export default Create;
+
