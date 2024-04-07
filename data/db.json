@@ -1,146 +1,138 @@
 {
-    "retseptlar":[
-        {
-            "id":1,
-            "img":"https://zira.uz/wp-content/uploads/2018/10/kavardak1-2.jpg",
-            "name":"Qovurdoq",
-            "ingerediends":[
-                "mol go'shti",
-                "kartoshka",
-                "qizil sabzi",
-                "piyoz",
-                "pomidor",
-                " qizil bulg'or qalampiri",
-                " sarimsoqpiyoz tishchasi",
-                "o'simlik yog'i"
-            ],
-            "cookingTime": "35 minut",
-            "description":"Qovurdoq bu oddiy masalliqlardan tayyorlaniladigan juda mazali taom bo’lib, oson pishiriladi.Bu taom uchun kerakli masalliqlar bu go’sht, piyoz, sabzi, kartoshka va pomidor bo’lib, bulg’or qalampiri va sarimsoqpiyozni xohishga qarab solishingiz yoki solmasligingiz mumkin."
-        },{
-            "id":2,
-            "img":"https://zira.uz/wp-content/uploads/2018/03/kuk-samsa-1.jpg",
-            "name":"Kok somsa",
-            "ingerediends":[
-                "ismaloq",
-                "jag'-jag",
-                "yalpiz",
-                "mator ko'kati",
-                "piyoz",
-                "o'simlik yog'i",
-                "dumba yog'i"
-            ],
-            "cookingTime": "30 minut",
-            "description":"Navroz bayramini ozimizning kok somsalarimiz tasavvur etib bolmaydi. Bugungi somsalarning xamirini tayyorlash esa kopchilik uchun yangilik bolsa ajab emas Somsalarni chiroyli chiqishi uchun chopchalarda terib chiqsak ham, alohida-alohida tugib chiqsak ham boladi."
-        },{
-            "id":3,
-            "img":"https://zira.uz/wp-content/uploads/2018/10/lagman-gotovoe-blyudo.jpg",
-            "name":"Cho’zma lag’mon",
-            "ingerediends":[
-                "mol go'shti",
-                "lagmon",
-                "piyoz",
-                "tuz",
-                "soya qaylasi",
-                "bulg'or qalampirlari",
-                "Daykon turpi",
-                "o'simlik yog'i"
-            ],
-            "cookingTime": "1 soat",
-            "description":"Lag’min xamirini cho’zish ko’pchilik o’ylaganidek mushkul ish emas,Xamirni qorib olamiz va biroz muddatga ustini yopib, tindiramiz. So'ng xamirni taxta yoki stol ustiga qo'yib, biroz yoyamiz va uzun lentalarga kesib chiqamiz. Kattaroq lagan olib, yaxshilab yog' surtamiz, qo'llarimizni ham yog'lab olamiz."
-        },{
-            "id":4,
-            "img":"https://zira.uz/wp-content/uploads/2018/10/chaykhanskiy-plov-5.jpg",
-            "name":"Choyxona palov",
-            "ingerediends":[
-                "qo'y go'shti",
-                "dumba yog'i",
-                "sabzi",
-                "guruch",
-                "sarimsoqpiyoz",
-                "piyoz",
-                "tuz",
-                "o'simlik yog'i"
-            ],
-            "cookingTime": "1.5 soat",
-            "description":"Choyxona palov eng mazali oshlardan biri bo’lib, aynan shu palobni ko’pchilik o’z uyida tayyorlaydi.Bunda faqat qo’y go’shti va yog’idan foydalanamiz"
-        },{
-            "id":5,
-            "img":"https://zira.uz/wp-content/uploads/2018/07/norin-1.jpg",
-            "name":"Norin",
-            "ingerediends":[
-                "norin hamiri",
-                "mol go'shti",
-                "suv",
-                "tuz",
-                "zira",
-                "murch"
-            ],
-            "cookingTime": "5 soat",
-            "description":"Norin o’zbek milliy taomlari orasida eng mazali va sevimlilaridan biri bo’lib, ko’pchilik uni tayyorlash juda murakkab deb o’ylaydi. Lekin aslida unday emas.Bizning maslahatlarga tayanib, siz ham xonimni tez va oson tayyorlay olishingiz mumkin."
-        },{
-            "id":6,
-            "img":"https://zira.uz/wp-content/uploads/2018/03/dimlama-3.jpg",
-            "name":"Dimlama",
-            "ingerediends":[
-                "mol go'shti",
-                "piyoz",
-                "qizil sabzi",
-                "pomidor",
-                "qizil bulg'or qalampiri",
-                "qovoqcha",
-                "bryussel karami",
-                "o'simlik yog'i"
-            ],
-            "cookingTime": "1 soat",
-            "description":"Bugun ko’pchilikning sevimli taomlaridan bo’lmish – dimlama taomini tayyorladik. Bu retseptimiz multivarkasi bor pazandalarimizni juda ham xursand qiladi."
-        },{
-            "id":7,
-            "img":"https://zira.uz/wp-content/uploads/2019/03/xamir-hosip.jpg",
-            "name":"Xamir xasip",
-            "ingerediends":[
-                "Xasip uchun xamir",
-                "mol go'shtidan qiyma",
-                "piyoz",
-                "guruch",
-                "dumba yog'i",
-                "tuz va murch",
-                "zira",
-                "o'simlik yog'i"
-            ],
-            "cookingTime": "50 minut",
-            "description":"Xamir xasip juda to’yimli va mazali milliy taomlarimizdan biri bo’lib, u o’zining ajoyib ko’rinishi bilan har bir dasturxonga ko’rk beradi.Unga kerakli masalliqlar esa deyarli har bir ro’zg’ordan topiladi."
-        },{
-            "id":8,
-            "img":"https://zira.uz/wp-content/uploads/2019/09/mampar-6.jpg",
-            "name":"Mampar",
-            "ingerediends":[
-                "Xamir",
-                "mol go'shti",
-                "piyoz",
-                "sarimsoqpiyoz tishchasi",
-                "qizil sabzi",
-                "pomidor",
-                "qizil bulg'or qalampiri",
-                "kashnich"
-            ],
-            "cookingTime": "1 soat 20 minut",
-            "description":"Mampar — mazali va juda to’yimli suyuq taomlardan biri bo’lib, tayyorlash jarayoni ham umuman qiyinchilik tug’dirmaydi.Bizning usulda tayyorlanilgan mampardan tayyorlab ko’ring va oila a’zolaringizni tansiq ovqat bilan xushnud qiling."
-        },{
-            "id":9,
-            "img":"https://zira.uz/wp-content/uploads/2018/10/photo_2018-10-03_17-05-51.jpg",
-            "name":"Qatlamali somsa",
-            "ingerediends":[
-                "Somsa uchun xamir",
-                "mol yoki qo'y go'shti",
-                "piyoz",
-                "dumba yog'i",
-                "tuz va murch",
-                "zira",
-                "kashnich",
-                "ustiga sepish uchun sedana"
-            ],
-            "cookingTime": "40 minut",
-            "description":"Uyda tayyorlanilgan qatlamali somsalardan mazalisi bo’lmasa kerak. Bizlar bugun yana shunday bir qatlamali somsa retseptini taqdim etamiz."
-        }
-    ]
+  "retseptlar": [
+    {
+      "id": "1",
+      "img": "https://zira.uz/wp-content/uploads/2018/10/kavardak1-2.jpg",
+      "name": "Qovurdoq",
+      "ingerediends": [
+        "mol go'shti",
+        "kartoshka",
+        "qizil sabzi",
+        "piyoz",
+        "pomidor",
+        " qizil bulg'or qalampiri",
+        " sarimsoqpiyoz tishchasi",
+        "o'simlik yog'i"
+      ],
+      "cookingTime": "35",
+      "description": "Qovurdoq bu oddiy masalliqlardan tayyorlaniladigan juda mazali taom bo’lib, oson pishiriladi.Bu taom uchun kerakli masalliqlar bu go’sht, piyoz, sabzi, kartoshka va pomidor bo’lib, bulg’or qalampiri va sarimsoqpiyozni xohishga qarab solishingiz yoki solmasligingiz mumkin."
+    },
+    {
+      "id": "3",
+      "img": "https://zira.uz/wp-content/uploads/2018/10/lagman-gotovoe-blyudo.jpg",
+      "name": "Cho’zma lag’mon",
+      "ingerediends": [
+        "mol go'shti",
+        "lagmon",
+        "piyoz",
+        "tuz",
+        "soya qaylasi",
+        "bulg'or qalampirlari",
+        "Daykon turpi",
+        "o'simlik yog'i"
+      ],
+      "cookingTime": "60",
+      "description": "Lag’min xamirini cho’zish ko’pchilik o’ylaganidek mushkul ish emas,Xamirni qorib olamiz va biroz muddatga ustini yopib, tindiramiz. So'ng xamirni taxta yoki stol ustiga qo'yib, biroz yoyamiz va uzun lentalarga kesib chiqamiz. Kattaroq lagan olib, yaxshilab yog' surtamiz, qo'llarimizni ham yog'lab olamiz."
+    },
+    {
+      "id": "4",
+      "img": "https://zira.uz/wp-content/uploads/2018/10/chaykhanskiy-plov-5.jpg",
+      "name": "Choyxona palov",
+      "ingerediends": [
+        "qo'y go'shti",
+        "dumba yog'i",
+        "sabzi",
+        "guruch",
+        "sarimsoqpiyoz",
+        "piyoz",
+        "tuz",
+        "o'simlik yog'i"
+      ],
+      "cookingTime": "90",
+      "description": "Choyxona palov eng mazali oshlardan biri bo’lib, aynan shu palobni ko’pchilik o’z uyida tayyorlaydi.Bunda faqat qo’y go’shti va yog’idan foydalanamiz"
+    },
+    {
+      "id": "5",
+      "img": "https://zira.uz/wp-content/uploads/2018/07/norin-1.jpg",
+      "name": "Norin",
+      "ingerediends": [
+        "norin hamiri",
+        "mol go'shti",
+        "suv",
+        "tuz",
+        "zira",
+        "murch"
+      ],
+      "cookingTime": "180",
+      "description": "Norin o’zbek milliy taomlari orasida eng mazali va sevimlilaridan biri bo’lib, ko’pchilik uni tayyorlash juda murakkab deb o’ylaydi. Lekin aslida unday emas.Bizning maslahatlarga tayanib, siz ham xonimni tez va oson tayyorlay olishingiz mumkin."
+    },
+    {
+      "id": "6",
+      "img": "https://zira.uz/wp-content/uploads/2018/03/dimlama-3.jpg",
+      "name": "Dimlama",
+      "ingerediends": [
+        "mol go'shti",
+        "piyoz",
+        "qizil sabzi",
+        "pomidor",
+        "qizil bulg'or qalampiri",
+        "qovoqcha",
+        "bryussel karami",
+        "o'simlik yog'i"
+      ],
+      "cookingTime": "60",
+      "description": "Bugun ko’pchilikning sevimli taomlaridan bo’lmish – dimlama taomini tayyorladik. Bu retseptimiz multivarkasi bor pazandalarimizni juda ham xursand qiladi."
+    },
+    {
+      "id": "7",
+      "img": "https://zira.uz/wp-content/uploads/2019/03/xamir-hosip.jpg",
+      "name": "Xamir xasip",
+      "ingerediends": [
+        "Xasip uchun xamir",
+        "mol go'shtidan qiyma",
+        "piyoz",
+        "guruch",
+        "dumba yog'i",
+        "tuz va murch",
+        "zira",
+        "o'simlik yog'i"
+      ],
+      "cookingTime": "50",
+      "description": "Xamir xasip juda to’yimli va mazali milliy taomlarimizdan biri bo’lib, u o’zining ajoyib ko’rinishi bilan har bir dasturxonga ko’rk beradi.Unga kerakli masalliqlar esa deyarli har bir ro’zg’ordan topiladi."
+    },
+    {
+      "id": "8",
+      "img": "https://zira.uz/wp-content/uploads/2019/09/mampar-6.jpg",
+      "name": "Mampar",
+      "ingerediends": [
+        "Xamir",
+        "mol go'shti",
+        "piyoz",
+        "sarimsoqpiyoz tishchasi",
+        "qizil sabzi",
+        "pomidor",
+        "qizil bulg'or qalampiri",
+        "kashnich"
+      ],
+      "cookingTime": "80",
+      "description": "Mampar — mazali va juda to’yimli suyuq taomlardan biri bo’lib, tayyorlash jarayoni ham umuman qiyinchilik tug’dirmaydi.Bizning usulda tayyorlanilgan mampardan tayyorlab ko’ring va oila a’zolaringizni tansiq ovqat bilan xushnud qiling."
+    },
+    {
+      "id": "9",
+      "img": "https://zira.uz/wp-content/uploads/2018/10/photo_2018-10-03_17-05-51.jpg",
+      "name": "Qatlamali somsa",
+      "ingerediends": [
+        "Somsa uchun xamir",
+        "mol yoki qo'y go'shti",
+        "piyoz",
+        "dumba yog'i",
+        "tuz va murch",
+        "zira",
+        "kashnich",
+        "ustiga sepish uchun sedana"
+      ],
+      "cookingTime": "40",
+      "description": "Uyda tayyorlanilgan qatlamali somsalardan mazalisi bo’lmasa kerak. Bizlar bugun yana shunday bir qatlamali somsa retseptini taqdim etamiz."
+    }
+  ]
 }

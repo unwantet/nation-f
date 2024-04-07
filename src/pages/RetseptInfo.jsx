@@ -1,6 +1,9 @@
 import { useParams } from "react-router-dom"
 import { useEffect , useState } from "react"
 import { Link } from "react-router-dom"
+import { MdDeleteForever } from "react-icons/md";
+import toast, { Toaster } from 'react-hot-toast';
+
 
 export default function RetseptInfo() {
     const { id } = useParams()
@@ -20,6 +23,24 @@ export default function RetseptInfo() {
           });
       }, []);
 
+      const handleDelete = () => {
+        fetch("http://localhost:3000/retseptlar/" + id, {
+          method: "DELETE",
+        })
+          .then((response) => {
+            if (response.ok) {
+              
+              window.location.href = "/";
+              toast.success("Retsept o'chirildi");
+            } else {
+              console.log("Retsept o'chirilmadi");
+            }
+          })
+          .catch((error) => {
+            console.log(error);
+          });
+      }
+
       
     return (
         <div className="max-w-screen-lg w-full mx-auto px-3">
@@ -38,10 +59,15 @@ export default function RetseptInfo() {
             </div>
             <div className="w-[350px] border border-cyan-400 p-6 rounded-lg shadow-lg shadow-cyan-500/50">
               <ol>
+              <Toaster/>
                 <h1 className="text-3xl font-bold text-orange-600 mb-11 flex w-full justify-between">
                   Ingerediendlar
                   <Link to="/">
+                    <div className="flex gap-1">
+
+                    <MdDeleteForever onClick={handleDelete} />
                   <svg className=" hover:rotate-[160deg] hover:transition-all" xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24"><path fill="#00ffcb" d="M20 6.91L17.09 4L12 9.09L6.91 4L4 6.91L9.09 12L4 17.09L6.91 20L12 14.91L17.09 20L20 17.09L14.91 12z"></path></svg>
+                    </div>
                   </Link>
                   </h1>
                 {retsept.ingerediends.map((ing ,index) => (
@@ -55,7 +81,7 @@ export default function RetseptInfo() {
                 <div className="mt-10">
                    <h1 className="text-4xl text-green-600">Tayyorlanish vaqti:</h1> 
                   <br />
-                  <p className="text-[30px] font-serif font-extrabold text-pink-400">{retsept.cookingTime}</p>
+                  <p className="text-[30px] font-serif font-extrabold text-pink-400">{retsept.cookingTime} minut</p>
                   </div>
               </ol>
             </div>
