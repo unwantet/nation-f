@@ -3,7 +3,7 @@ import toast, { Toaster } from 'react-hot-toast';
 
 
 
-function AllRetsept({retsepts}) {
+function AllRetsept( {retsepts} ) {
     return (
         <>  
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5">

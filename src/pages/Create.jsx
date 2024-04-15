@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import toast, { Toaster } from 'react-hot-toast';
+import { useFetch } from "../hooks/useFetch";
 
 function Create() {
   const [ingrediend, setIngrediend] = useState("")
@@ -8,6 +9,8 @@ function Create() {
   const [description , setDescription] = useState("")
   const [img , setImg] = useState("")
   const [cookingTime , setCookingTime] = useState("")
+
+  const {postData} = useFetch("http://localhost:3000/retseptlar" , "POST" )  
   
   const [ingerediends , setIngrediends] = useState([])
 
@@ -35,32 +38,20 @@ function Create() {
     e.preventDefault();
 
     if(name != "" && description != "" && img != "" && cookingTime != "" && ingerediends.length > 0){
-      fetch("http://localhost:3000/retseptlar", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name,
-          description,
-          img,
-          cookingTime: cookingTime,
-          ingerediends,
-        }),
-      })
-        .then((data) => {
-          return data.json()
-        })
-        .then((retsept) => {
-          alert("Retsept muvoffaqiyatli qoshildi");
-          window.location.href = "/";
-        })
-        .catch((error) => {
-          console.log(error);
-        });
-    }else{
-      toast.error("Barcha maydonlarni to'ldiring")
+      const newRetsept = {
+        name,
+        description,
+        img,
+        cookingTime: cookingTime,
+        ingerediends,
+      }
+      postData(newRetsept)
+      window.location.href = "/";
     }
+    
+    // }else{
+    //   toast.error("Barcha maydonlarni to'ldiring")
+    // }
   }
 
   return (

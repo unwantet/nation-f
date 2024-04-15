@@ -3,25 +3,19 @@ import { useEffect , useState } from "react"
 import { Link } from "react-router-dom"
 import { MdDeleteForever } from "react-icons/md";
 import toast, { Toaster } from 'react-hot-toast';
+import {useFetch} from "../hooks/useFetch";
 
 
 export default function RetseptInfo() {
     const { id } = useParams()
+    
 
-    const [retsept , setRetseps] = useState(null)
-
-    useEffect(() => {
-        fetch("http://localhost:3000/retseptlar/" + id)
-          .then((data) => {
-            return data.json()
-          })
-          .then((retsept) => {
-            setRetseps(retsept);
-          })
-          .catch((error) => {
-            console.log(error);
-          });
-      }, []);
+    const { 
+      data : retsept ,
+      isPending ,
+      error  } = useFetch("http://localhost:3000/retseptlar/"+id)
+      if(error) return <h1 className="text-center text-4xl mt-48 font-bold">{error}</h1>
+      if(isPending) return <h1 className="text-center text-4xl mt-48 font-bold">Loading...</h1>  
 
       const handleDelete = () => {
         fetch("http://localhost:3000/retseptlar/" + id, {
